@@ -3,10 +3,10 @@ import pandas as pd
 from datetime import datetime
 from collections import defaultdict
 
-TOKEN = '6432827107:AAGNbJFmioxEkoU3xovtm52tjunqiDuTQEE'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
-EXCEL_FILE_PATH = 'C:\\Users\\fsfs1\\Downloads\\bot\\teams.xlsx'
+EXCEL_FILE_PATH = 'C\\teams.xlsx'
 
 questions = [
     "Расшифруйте сообщение:\nQYYN VEMU YX IYEB DBOKCEBO REXD!",
